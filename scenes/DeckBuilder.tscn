@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/DeckBuilder.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.36035
+margin_top = -2.36035
+margin_right = -2.36035
+margin_bottom = -2.36035
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.017
+anchor_top = 0.033
+anchor_right = 0.812
+anchor_bottom = 0.965
+margin_left = -0.408001
+margin_top = 0.200001
+margin_right = -0.488037
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="Panel"]
+anchor_left = 0.012
+anchor_top = 0.027
+anchor_right = 0.979
+anchor_bottom = 0.977
+margin_left = 0.232
+margin_top = -0.0930004
+margin_right = 0.0940552
+margin_bottom = -0.143005
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 838.0
+margin_top = 30.0
+margin_right = 1016.0
+margin_bottom = 237.0

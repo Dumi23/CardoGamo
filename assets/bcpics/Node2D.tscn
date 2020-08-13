@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/bcpics/playingfield.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="playingfield" type="Sprite" parent="."]
+position = Vector2( 512.219, 300.433 )
+scale = Vector2( 1.05398, 1.70369 )
+texture = ExtResource( 1 )

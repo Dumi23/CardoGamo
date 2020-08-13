@@ -1,0 +1,6 @@
+[gd_resource type="StreamTexture" format=2]
+
+[resource]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/mainmenupic.jpg-8da4c3a2821f6687c427a8cc1418d7bf.stex"
