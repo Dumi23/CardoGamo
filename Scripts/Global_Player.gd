@@ -19,3 +19,36 @@ func load_data() -> void:
 		deck = dict["deck"]
 	else:
 		deck = playerData["deck"]
+		
+
+func collection_getEmptySlot() -> int:
+	for slot in range(0, deck_maxSlots):
+		if (deck[str(slot)]["id"] == "0"):
+			return int (slot)
+	print ("Deck is full")
+	return -1
+
+
+func collection_addCard(cardID:int) -> int:
+	var cardData:Dictionary = Global_CardDatabase.get_card(str(cardID))
+	if (cardData.empty()):
+		return -1 
+	if (int(cardData["stack_limit"]) <=1 ):
+		var slot = collection_getEmptySlot()
+		if (slot < 0):
+			return -1
+		deck[String(slot)] = {"id": String(cardID), "amount": 1}
+		return slot
+	
+	
+	for slot in range(0, deck_maxSlots):
+		if(deck[String(slot)]["id"] == String(cardID)):
+			if (int(cardData["stack_limit"]) > int(deck[String(slot)]["amount"])):
+				deck[String(slot)]["amount"] = int(deck[String(slot)]["amount"] + 1)
+				return slot
+	
+	var slot = collection_getEmptySlot()
+	if (slot < 0):
+		return -1
+	deck[String(slot)] = {"id": String(cardID), "amount": 1}	
+	return slot

@@ -28,5 +28,19 @@ func _on_Button_Load_pressed():
 		cardMetaData["amount"] = amount
 		if cardItem["id"] == "0": amount = " "
 		if !cardMetaData["stackable"]: amount = " "
-		itemList.add_item(String
+		itemList.add_item(String(amount), icon, true)
+		itemList.set_card_metadata(slot, cardMetaData)
+		itemList.set_card_tooltip(slot, cardMetaData["name"])
 		
+	
+func _on_Button_AddCard_pressed() -> void:
+	$Panel/WindowDialog_AddCard_Window.popup()
+
+func _on_AddCard_Window_Button_Close_pressed() -> void:
+	$Panel/WindowDialog_AddCardWindow.hide()
+
+
+func _on_AddCardWindow_Button_AddCard_pressed() -> void:
+	var affectedSlot = Global_Player.inventory_addItem($Panel/WindowDialog_AddItemWindow/AddItemWindow_SpinBox_ItemID.get_value())
+	if (affectedSlot >= 0):
+		update_slot(affectedSlot)
