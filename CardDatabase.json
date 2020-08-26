@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "Paper_plane",
-        "icon": "",
+        "icon": "res://CardImages/Card_40.png",
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
@@ -10,7 +10,7 @@
 
     "2": {
         "name": "Exam_paper",
-        "icon": "",
+        "icon": "res://CardImages/Card_44.png",
         "usable": true,
         "type": "Paper",
         "form": "Woah",
@@ -19,7 +19,7 @@
 
     "3": {
         "name": "Slap",
-        "icon": "",
+        "icon": "res://CardImages/Card_41.png",
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
@@ -28,7 +28,7 @@
 
     "4": {
         "name": "Dave_the_school_boy",
-        "icon": "",
+        "icon": "res://CardImages/Card_48.png",
         "hero": true,
         "health": 5,
         "description": "Your paper ouch cards deal +1 damage during the first round"
@@ -36,7 +36,7 @@
     
     "5": {
         "name": "Chop",
-        "icon": "", 
+        "icon": "res://CardImages/Card_33.png", 
         "usable": true,
         "type": "Scissors",
         "form": "Ouch",
@@ -45,7 +45,7 @@
 
     "6": {
         "name": "Jim",
-        "icon": "",
+        "icon": "res://CardImages/Card_45.png",
         "hero": true,
         "health": 7,
         "description": ""
@@ -53,7 +53,7 @@
 
     "7": {
         "name": "Jimza",
-        "icon": "",
+        "icon": "res://CardImages/Card_29.png",
         "hero": true,
         "health": 7,
         "description": "It's just Hemza"
@@ -61,7 +61,7 @@
 
     "8": {
         "name": "Punch",
-        "icon": "",
+        "icon": "res://CardImages/Card_37.png",
         "usable": true,
         "type": "Rock",
         "form": "Ouch",
@@ -70,7 +70,7 @@
     
     "9": {
         "name": "Cut",
-        "icon": "",
+        "icon": "res://CardImages/Card_39.png",
         "usable": true,
         "type": "Scissors",
         "form": "Woah",
@@ -79,7 +79,7 @@
     
     "10": {
         "name": "Butter_knife",
-        "icon": "",
+        "icon": "res://CardImages/Card_43.png",
         "usable": true,
         "type": "Scissors",
         "form": "Ouch",
@@ -88,7 +88,7 @@
 
     "11": {
         "name": "Edgemaster",
-        "icon": "",
+        "icon": "res://CardImages/Card_47.png",
         "hero": true,
         "health": 5,
         "description": "You can redraw up to 2 scissor cards at the start of each round"
@@ -96,7 +96,7 @@
 
     "12": {
         "name": "Math",
-        "icon": "",
+        "icon": "res://CardImages/Card_02.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -105,7 +105,7 @@
     
     "13": {
         "name": "Spitball",
-        "icon": "",
+        "icon": "res://CardImages/Card_36.png",
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
@@ -114,7 +114,7 @@
 
     "14": {
         "name": "Black_pen",
-        "icon": "",
+        "icon": "res://CardImages/Card_11.png",
         "usable": true,
         "type": "Scissors",
         "form": "Woah",
@@ -123,7 +123,7 @@
     
     "15": {
         "name": "Stun",
-        "icon": "",
+        "icon": "res://CardImages/Card_10.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -132,7 +132,7 @@
 
     "16": {
         "name": "Cheat_sheet",
-        "icon": "",
+        "icon": "res://CardImages/Card_08.png",
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
@@ -141,7 +141,7 @@
 
     "17": {
         "name": "Scalpel",
-        "icon": "",
+        "icon": "res://CardImages/Card_35.png",
         "usable": true,
         "type": "Scissors",
         "form": "Ouch",
@@ -150,7 +150,7 @@
 
     "18": {
         "name": "Locker",
-        "icon": "",
+        "icon": "res://CardImages/Card_34.png",
         "usable": true,
         "type": "Rock",
         "form": "Blok",
@@ -159,7 +159,7 @@
 
     "19": {
         "name": "Flex",
-        "icon": "",
+        "icon": "res://CardImages/Card_28.png",
         "usable": true,
         "type": "Rock",
         "form": "Blok",
@@ -168,7 +168,7 @@
 
     "20": {
         "name": "Clean_edge",
-        "icon": "",
+        "icon": "res://CardImages/Card_12.png",
         "usable": true,
         "type": "Scissors",
         "form": "Ouch",
@@ -177,7 +177,7 @@
 
     "21": {
         "name": "Outspeed",
-        "icon": "",
+        "icon": "res://CardImages/Card_23.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -186,7 +186,7 @@
 
     "22": {
         "name": "Dj_RichieSwitchie",
-        "icon": "",
+        "icon": "res://CardImages/Card_31.png",
         "hero": true,
         "health": 6,
         "description": "Once per round you switch two of your set cards. Can only be used on turn start"
@@ -194,7 +194,7 @@
 
     "23": {
         "name": "Push",
-        "icon": "",
+        "icon": "res://CardImages/Card_42.png",
         "usable": true,
         "type": "Rock",
         "form": "Woah",
@@ -203,7 +203,7 @@
 
     "24": {
         "name": "Big_joe",
-        "icon": "",
+        "icon": "res://CardImages/Card_46.png",
         "hero": true,
         "health": 5,
         "description": "All of your block cards count as rock and they block 1 more damage"
@@ -211,7 +211,7 @@
 
     "25": {
         "name": "Blank",
-        "icon": "",
+        "icon": "res://CardImages/Card_01.png",
         "usable": true,
         "type": "",
         "form": "Woah",
@@ -220,7 +220,7 @@
 
     "26": {
         "name": "Happy_bear_patch",
-        "icon": "",
+        "icon": "res://CardImages/Card_05.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -229,7 +229,7 @@
 
     "27": {
         "name": "Sudden_swing",
-        "icon": "",
+        "icon": "res://CardImages/Card_15.png",
         "usable": true,
         "type": "Utility",
         "form": "Ouch",
@@ -238,7 +238,7 @@
 
     "28":   {
         "name": "Nap",
-        "icon": "",
+        "icon": "res://CardImages/Card_09.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -247,7 +247,7 @@
     
     "29": {
         "name": "Stop",
-        "icon": "",
+        "icon": "res://CardImages/Card_06.png",
         "usable": true,
         "type": "Utility",
         "form": "Blok",
@@ -257,7 +257,7 @@
 
     "30": {
         "name": "Recovering_Addam",
-        "icon": "",
+        "icon": "res://CardImages/Card_13.png",
         "hero": true,
         "health": 5,
         "description": "After every turn you didn't take damage heal 1 HP. This character does not heal at the round end" 
@@ -265,7 +265,7 @@
 
     "31": {
         "name": "Daemon",
-        "icon": "",
+        "icon": "res://CardImages/Card_14.png",
         "hero": true,
         "health": 10,
         "description": "At the end of the first round deal 3 damage to his own HP instead of healing"
@@ -273,7 +273,7 @@
 
     "32": {
         "name": "Powerbubble_soda",
-        "icon": "",
+        "icon": "res://CardImages/Card_17.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -282,7 +282,7 @@
 
     "33": {
         "name": "Comet_punch",
-        "icon": "",
+        "icon": "res://CardImages/Card_21.png",
         "usable": true,
         "type": "Utility",
         "form": "Ouch",
@@ -291,7 +291,7 @@
 
     "34": {
         "name": "Switcherobot",
-        "icon": "",
+        "icon": "res://CardImages/Card_25.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -300,7 +300,7 @@
 
     "35": {
         "name": "Telekinesis",
-        "icon": "",
+        "icon": "res://CardImages/Card_19.png",
         "usable": true,
         "type": "Utility",
         "form": "Blok",
@@ -309,7 +309,7 @@
 
     "36": {
         "name": "Nail_step",
-        "icon": "",
+        "icon": "res://CardImages/Card_24.png",
         "usable": true,
         "type": "Scissors",
         "form": "Woah",
@@ -318,7 +318,7 @@
 
     "37": {
         "name": "Dental_checkup",
-        "icon": "",
+        "icon": "res://CardImages/Card_22.png",
         "usable": true,
         "type" : "Utility",
         "form": "Woah",
@@ -327,7 +327,7 @@
 
     "38": {
         "name": "Windown",
-        "icon": "",
+        "icon": "res://CardImages/Card_03.png",
         "usable": true,
         "type": "Rock",
         "form": "Ouch",
@@ -336,7 +336,7 @@
 
     "39": {
         "name": "Doodle",
-        "icon": "",
+        "icon": "res://CardImages/Card_07.png",
         "usable": true,
         "type": "Paper",
         "form": "Woah",
@@ -345,7 +345,7 @@
 
     "40": {
         "name": "Rules",
-        "icon": "",
+        "icon": "res://CardImages/Card_26.png",
         "usable": true,
         "type": "Utility",
         "form": "Blok",
@@ -354,7 +354,7 @@
 
     "41": {
         "name": "A_letter",
-        "icon": "",
+        "icon": "res://CardImages/Card_20.png",
         "usable": true,
         "type": "Paper",
         "form": "Blok",
@@ -363,7 +363,7 @@
     
     "42": {
         "name": "Flower",
-        "icon": "", 
+        "icon": "res://CardImages/Card_27.png", 
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -372,7 +372,7 @@
 
     "43": {
         "name": "Ice_cream",
-        "icon": "",
+        "icon": "res://CardImages/Card_18.png",
         "usable": true,
         "type": "Utility",
         "form": "Woah",
@@ -381,12 +381,28 @@
 
     "44": {
         "name": "Shield",
-        "icon": "",
+        "icon": "res://CardImages/Card_38.png",
         "usable": true,
         "type": "Rock",
         "form": "Blok",
         "descriptio": "Block 2 damage"
+    },
+
+    "45": {
+        "name": "Small_chair_throw",
+        "icon": "res://CardImages/Card_04.png",
+        "usable": true,
+        "type": "Rock",
+        "form": "Ouch",
+        "description": "Deal 2 damage if used after a rock card"
+    },
+
+    "46": {
+        "name": "Combo_punch",
+        "icon": "res://CardImages/Card_32.png",
+        "usable": true,
+        "type": "Utility",
+        "form": "Ouch",
+        "description": "Deal 1 damage as any card type if the card before this one did damage"
     }
-
-
 }

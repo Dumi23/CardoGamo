@@ -1,19 +1,14 @@
-extends Node
+extends Control
 
 
-var url_database_item = "res://CardDatabase.json"
+onready var cardData:Dictionary = Global_DataParser.load_data("res://CardDatabase.json")
 
 
 
-func get_card(id):
-	var cardData
-	cardData = Global_DataParser.load_data(url_database_item)
-	
-	
-	if !cardData.has(String(id)):
-		print("Item does not exist.")
-		return
-	
-	cardData[String(id)]["id"] = int(id)
-	return cardData[String(id)]
-	
+func get_card(id:String) -> Dictionary:
+		if !cardData.has(id):
+			print("Item does not exist.")
+			return {}
+		
+		cardData[(id)]["id"] = (id)
+		return cardData[(id)]

@@ -21,10 +21,11 @@ config/icon="res://icon.png"
 
 [autoload]
 
-globals="*res://globals.gd"
-CardBase="*res://Cards/CardBase.tscn"
 Global_DataParser="*res://Scripts/Global_DataParser.gd"
-GlobalCardDatabase="*res://Scripts/Global_CardDatabase.gd"
+Global_CardDatabase="*res://Scripts/Global_CardDatabase.gd"
+Global_Player="*res://Scripts/Global_Player.gd"
+globals="res://globals.gd"
+CardBase="res://Cards/CardBase.tscn"
 
 [rendering]
 

@@ -15,32 +15,53 @@ __meta__ = {
 }
 
 [node name="Panel" type="Panel" parent="."]
-anchor_left = 0.017
-anchor_top = 0.033
-anchor_right = 0.812
-anchor_bottom = 0.965
-margin_left = -0.408001
-margin_top = 0.200001
-margin_right = -0.488037
+anchor_left = 0.003
+anchor_top = 0.003
+anchor_right = 0.991
+anchor_bottom = 1.0
+margin_left = -0.072
+margin_top = 0.2
+margin_right = 10.2159
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ItemList" type="ItemList" parent="Panel"]
-anchor_left = 0.012
+anchor_left = 0.173
 anchor_top = 0.027
 anchor_right = 0.979
-anchor_bottom = 0.977
-margin_left = 0.232
-margin_top = -0.0930004
-margin_right = 0.0940552
-margin_bottom = -0.143005
+anchor_bottom = 0.978
+margin_left = -3.5858
+margin_top = -0.146
+margin_right = -3.31781
+margin_bottom = 0.155945
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 838.0
-margin_top = 30.0
-margin_right = 1016.0
-margin_bottom = 237.0
+[node name="Button_Load" type="Button" parent="Panel"]
+anchor_left = 0.023
+anchor_top = 0.054
+anchor_right = 0.148
+anchor_bottom = 0.129
+margin_left = 0.493998
+margin_top = -0.292
+margin_right = -0.255997
+margin_bottom = -0.142006
+text = "Load"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog_AddItemWindow" type="WindowDialog" parent="Panel"]
+visible = true
+anchor_left = 0.326
+anchor_top = 0.343
+anchor_right = 0.688
+anchor_bottom = 0.578
+margin_left = 0.0621948
+margin_top = 0.243164
+margin_right = 0.0982056
+margin_bottom = -0.286835
+window_title = "Add Card"
+[connection signal="pressed" from="Panel/Button_Load" to="." method="_on_Button_Load_pressed"]

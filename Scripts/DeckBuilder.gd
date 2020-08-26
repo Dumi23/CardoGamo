@@ -14,16 +14,19 @@ func _ready():
 	itemList.set_same_column_width(true)
 	
 	
-	for i in range(1, 49):
-		var Card
-		if i < 10:
-			Card = ResourceLoader.load("res://CardImages/Card_0" + String(i) + ".png")
-			itemList.add_item("", Card, true)
-			continue
+	
+
+
+func _on_Button_Load_pressed():
+	itemList.clear()
+	for slot in range(0, Global_Player.inventory_maxSlots):
+		var cardItem = Global_Player.inventory[String(slot)]
+		var cardMetaData = Global_CardDatabase.deck[String(slot)]
+		var icon = ResourceLoader.load(cardMetaData["icon"])
+		var amount = int(cardItem["amount"])
 		
-		if i < 49:
-			Card = ResourceLoader.load("res://CardImages/Card_" + String(i) + ".png")
-			itemList.add_item("", Card, true)
-
-
-	pass
+		cardMetaData["amount"] = amount
+		if cardItem["id"] == "0": amount = " "
+		if !cardMetaData["stackable"]: amount = " "
+		itemList.add_item(String
+		
