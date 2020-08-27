@@ -1,11 +1,22 @@
 {
+    "0":{
+        "name": "",
+        "icon": "",
+        "usable": false,
+        "type": "",
+        "form": "",
+        "description": "",
+        "stackable": false
+    },
+
     "1": {
         "name": "Paper_plane",
         "icon": "res://CardImages/Card_40.png",
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
-        "description": "Deal 2 damage"
+        "description": "Deal 2 damage",
+        "stackable": false
     },
 
     "2": {
@@ -14,7 +25,8 @@
         "usable": true,
         "type": "Paper",
         "form": "Woah",
-        "description": "Your next paper ouch card in the round deals +1 damage"
+        "description": "Your next paper ouch card in the round deals +1 damage",
+        "stackable": false
     },
 
     "3": {
@@ -23,7 +35,8 @@
         "usable": true,
         "type": "Paper",
         "form": "Ouch",
-        "description": "Deal 1 damage"
+        "description": "Deal 1 damage",
+        "stackable": false
     },
 
     "4": {
@@ -31,7 +44,8 @@
         "icon": "res://CardImages/Card_48.png",
         "hero": true,
         "health": 5,
-        "description": "Your paper ouch cards deal +1 damage during the first round"
+        "description": "Your paper ouch cards deal +1 damage during the first round",
+        "stackable": false
     },
     
     "5": {
@@ -40,7 +54,8 @@
         "usable": true,
         "type": "Scissors",
         "form": "Ouch",
-        "description": "Deal 1 damage"
+        "description": "Deal 1 damage",
+        "stackable": false
     },
 
     "6": {
@@ -48,7 +63,8 @@
         "icon": "res://CardImages/Card_45.png",
         "hero": true,
         "health": 7,
-        "description": ""
+        "description": "",
+        "stackable": false
     },
 
     "7": {
@@ -56,7 +72,10 @@
         "icon": "res://CardImages/Card_29.png",
         "hero": true,
         "health": 7,
-        "description": "It's just Hemza"
+        "description": "It's just Hemza",
+        "stackable" : false,
+        "type": "",
+        "form": ""
     },
 
     "8": {

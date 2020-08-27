@@ -63,6 +63,9 @@ margin_left = 0.119751
 margin_top = 0.261993
 margin_right = 0.0917969
 margin_bottom = -0.134003
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CardMenu_TextureRect_Icon" type="TextureRect" parent="Panel/WindowDialog_CardMenu"]
 anchor_left = 0.393
@@ -147,6 +150,9 @@ margin_top = 0.00984573
 margin_right = -0.0365601
 margin_bottom = 0.0698471
 rect_min_size = Vector2( 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="AddCardWindow_Button_AddCard" type="Button" parent="Panel/WindowDialog_AddCardWindow"]
 anchor_left = 0.216
@@ -180,4 +186,10 @@ margin_top = 0.111877
 margin_right = -0.255981
 margin_bottom = 0.261871
 text = "Add Card"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="item_rmb_selected" from="Panel/ItemList" to="." method="_on_ItemList_item_rmb_selected"]
 [connection signal="pressed" from="Panel/Button_Load" to="." method="_on_Button_Load_pressed"]
+[connection signal="pressed" from="Panel/WindowDialog_AddCardWindow/AddCardWindow_Button_AddCard" to="." method="_on_AddCardWindow_Button_AddCard_pressed"]
+[connection signal="pressed" from="Panel/Button_AddCard" to="." method="_on_Button_AddCard_pressed"]

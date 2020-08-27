@@ -11,6 +11,7 @@ func load_data(url) -> Dictionary:
 	if !file.file_exists(url): return {}
 	file.open(url, File.READ)
 	var data:Dictionary = {}
+	data = parse_json(file.get_as_text())
 	file.close()
 	return data
 	
