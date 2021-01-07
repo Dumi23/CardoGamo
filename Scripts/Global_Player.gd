@@ -6,6 +6,7 @@ var deck_maxSlots:int = 11
 onready var playerData:Dictionary = Global_DataParser.load_data(url_PlayerData)
 
 
+
 func _ready() -> void:
 	load_data()
 

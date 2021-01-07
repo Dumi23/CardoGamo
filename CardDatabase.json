@@ -13,6 +13,8 @@
         "name": "Paper_plane",
         "icon": "res://CardImages/Card_40.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Ouch",
         "description": "Deal 2 damage",
@@ -23,6 +25,8 @@
         "name": "Exam_paper",
         "icon": "res://CardImages/Card_44.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Woah",
         "description": "Your next paper ouch card in the round deals +1 damage",
@@ -33,6 +37,8 @@
         "name": "Slap",
         "icon": "res://CardImages/Card_41.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Ouch",
         "description": "Deal 1 damage",
@@ -42,8 +48,11 @@
     "4": {
         "name": "Dave_the_school_boy",
         "icon": "res://CardImages/Card_48.png",
+        "usable": false,
         "hero": true,
         "health": 5,
+        "type": "",
+        "form": "",
         "description": "Your paper ouch cards deal +1 damage during the first round",
         "stackable": false
     },
@@ -52,6 +61,8 @@
         "name": "Chop",
         "icon": "res://CardImages/Card_33.png", 
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Ouch",
         "description": "Deal 1 damage",
@@ -61,8 +72,11 @@
     "6": {
         "name": "Jim",
         "icon": "res://CardImages/Card_45.png",
+        "usable": false,
         "hero": true,
         "health": 7,
+        "type": "",
+        "form": "",
         "description": "",
         "stackable": false
     },
@@ -70,18 +84,21 @@
     "7": {
         "name": "Jimza",
         "icon": "res://CardImages/Card_29.png",
+        "usable": false,
         "hero": true,
         "health": 7,
-        "description": "It's just Hemza",
-        "stackable" : false,
         "type": "",
-        "form": ""
+        "form": "",
+        "description": "It's just Hemza",
+        "stackable" : false
     },
 
     "8": {
         "name": "Punch",
         "icon": "res://CardImages/Card_37.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Ouch",
         "description": "Deal 1 damage"
@@ -91,6 +108,8 @@
         "name": "Cut",
         "icon": "res://CardImages/Card_39.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Woah",
         "description": "Stop all enemy healing this round"
@@ -100,6 +119,8 @@
         "name": "Butter_knife",
         "icon": "res://CardImages/Card_43.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Ouch",
         "description": "Deal 1 damage and switch card I and V on both sides"
@@ -108,15 +129,21 @@
     "11": {
         "name": "Edgemaster",
         "icon": "res://CardImages/Card_47.png",
+        "usable": false,
         "hero": true,
         "health": 5,
+        "type": "",
+        "form": "",
         "description": "You can redraw up to 2 scissor cards at the start of each round"
+
     },
 
     "12": {
         "name": "Math",
         "icon": "res://CardImages/Card_02.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Switch card I and IV or II and V on every side"
@@ -126,6 +153,8 @@
         "name": "Spitball",
         "icon": "res://CardImages/Card_36.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Ouch",
         "description": "Deal 1 damage this card ignores block"
@@ -135,6 +164,8 @@
         "name": "Black_pen",
         "icon": "res://CardImages/Card_11.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Woah",
         "description": "The damage you take this round against paper is reduced by 1"
@@ -144,6 +175,8 @@
         "name": "Stun",
         "icon": "res://CardImages/Card_10.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Prevent the enemy woah card from activating and set it"
@@ -153,6 +186,8 @@
         "name": "Cheat_sheet",
         "icon": "res://CardImages/Card_08.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Ouch",
         "description": "Deal 1 damage if this card is switched set it"
@@ -162,6 +197,8 @@
         "name": "Scalpel",
         "icon": "res://CardImages/Card_35.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Ouch",
         "description": "Deal 2 damage"
@@ -171,6 +208,8 @@
         "name": "Locker",
         "icon": "res://CardImages/Card_34.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Blok",
         "description": "Block 1 damage deal damage equal to the not used block value"
@@ -180,6 +219,8 @@
         "name": "Flex",
         "icon": "res://CardImages/Card_28.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Blok",
         "description": "If your HP is higher stop all enemy rock cards from activating this round"
@@ -189,6 +230,8 @@
         "name": "Clean_edge",
         "icon": "res://CardImages/Card_12.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Ouch",
         "description": "Deal 1 damage for every scissor card that did no damage this round"
@@ -198,6 +241,8 @@
         "name": "Outspeed",
         "icon": "res://CardImages/Card_23.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Reveal your next turn card and activate it instead of this one but pass your next turn: povuci jos jednu lajnu"
@@ -206,8 +251,11 @@
     "22": {
         "name": "Dj_RichieSwitchie",
         "icon": "res://CardImages/Card_31.png",
+        "usable": false,
         "hero": true,
         "health": 6,
+        "type": "",
+        "form": "",
         "description": "Once per round you switch two of your set cards. Can only be used on turn start"
     },
 
@@ -215,6 +263,8 @@
         "name": "Push",
         "icon": "res://CardImages/Card_42.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Woah",
         "description": "This round after every card that blocked enemy damage your next ouch card deals +1 damage"
@@ -223,8 +273,11 @@
     "24": {
         "name": "Big_joe",
         "icon": "res://CardImages/Card_46.png",
+        "usable": false,
         "hero": true,
         "health": 5,
+        "type": "",
+        "form": "",
         "description": "All of your block cards count as rock and they block 1 more damage"
     },
 
@@ -232,6 +285,8 @@
         "name": "Blank",
         "icon": "res://CardImages/Card_01.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "",
         "form": "Woah",
         "description": ""
@@ -241,6 +296,8 @@
         "name": "Happy_bear_patch",
         "icon": "res://CardImages/Card_05.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Heal 3 HP but stop all other healing this round"
@@ -250,15 +307,19 @@
         "name": "Sudden_swing",
         "icon": "res://CardImages/Card_15.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Ouch",
         "description": "If the card before this one has no text deal 3 damage as rock"
     },
 
-    "28":   {
+    "28": {
         "name": "Nap",
         "icon": "res://CardImages/Card_09.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Heal 1 hp this card couns as a card with no text"
@@ -268,6 +329,8 @@
         "name": "Stop",
         "icon": "res://CardImages/Card_06.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Blok",
         "description": "Block 1 damage"
@@ -277,16 +340,22 @@
     "30": {
         "name": "Recovering_Addam",
         "icon": "res://CardImages/Card_13.png",
+        "usable": false,
         "hero": true,
         "health": 5,
+        "type": "",
+        "form": "",
         "description": "After every turn you didn't take damage heal 1 HP. This character does not heal at the round end" 
     },
 
     "31": {
         "name": "Daemon",
         "icon": "res://CardImages/Card_14.png",
+        "usable": false,
         "hero": true,
         "health": 10,
+        "type": "",
+        "form": "",
         "description": "At the end of the first round deal 3 damage to his own HP instead of healing"
     },
 
@@ -294,6 +363,8 @@
         "name": "Powerbubble_soda",
         "icon": "res://CardImages/Card_17.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Heal 1 HP and your next ouch card this round deals 1 more damage"
@@ -303,6 +374,8 @@
         "name": "Comet_punch",
         "icon": "res://CardImages/Card_21.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Ouch",
         "description": "Does damage equal to the combined damage you dealt this round as rock"
@@ -312,6 +385,8 @@
         "name": "Switcherobot",
         "icon": "res://CardImages/Card_25.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Switch cards I and V and II and IV on both sides and set them"
@@ -321,6 +396,8 @@
         "name": "Telekinesis",
         "icon": "res://CardImages/Card_19.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Blok",
         "description": "Block 1 damage. Stop all card switching this round"
@@ -330,6 +407,8 @@
         "name": "Nail_step",
         "icon": "res://CardImages/Card_24.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Scissors",
         "form": "Woah",
         "description": "If this card would be set deal 1 damage instead. This card can not be negated"
@@ -339,6 +418,8 @@
         "name": "Dental_checkup",
         "icon": "res://CardImages/Card_22.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type" : "Utility",
         "form": "Woah",
         "description": "If this card would be set deal 1 damage instead. This card can not be negated"
@@ -348,6 +429,8 @@
         "name": "Windown",
         "icon": "res://CardImages/Card_03.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Ouch",
         "description": "Deal 1 damage your next card counts as a card with no text"
@@ -357,6 +440,8 @@
         "name": "Doodle",
         "icon": "res://CardImages/Card_07.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Woah",
         "description": "Your woah cards with no text also block 1 damage this game"
@@ -366,6 +451,8 @@
         "name": "Rules",
         "icon": "res://CardImages/Card_26.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Blok",
         "description": "Block 0 damage"
@@ -375,6 +462,8 @@
         "name": "A_letter",
         "icon": "res://CardImages/Card_20.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Paper",
         "form": "Blok",
         "description": "Block 1 damage set this card on turn end"
@@ -384,6 +473,8 @@
         "name": "Flower",
         "icon": "res://CardImages/Card_27.png", 
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Switch two enemy set cards. You choose one and the enemy chooses the other"
@@ -393,6 +484,8 @@
         "name": "Ice_cream",
         "icon": "res://CardImages/Card_18.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Woah",
         "description": "Set your max HP to 7"
@@ -402,15 +495,19 @@
         "name": "Shield",
         "icon": "res://CardImages/Card_38.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Blok",
-        "descriptio": "Block 2 damage"
+        "description": "Block 2 damage"
     },
 
     "45": {
         "name": "Small_chair_throw",
         "icon": "res://CardImages/Card_04.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Rock",
         "form": "Ouch",
         "description": "Deal 2 damage if used after a rock card"
@@ -420,6 +517,8 @@
         "name": "Combo_punch",
         "icon": "res://CardImages/Card_32.png",
         "usable": true,
+        "hero": false,
+        "health": "",
         "type": "Utility",
         "form": "Ouch",
         "description": "Deal 1 damage as any card type if the card before this one did damage"

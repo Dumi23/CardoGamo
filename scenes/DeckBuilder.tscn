@@ -18,11 +18,11 @@ __meta__ = {
 [node name="Panel" type="Panel" parent="."]
 anchor_left = 0.003
 anchor_top = 0.003
-anchor_right = 0.991
+anchor_right = 1.001
 anchor_bottom = 1.0
 margin_left = -0.072
 margin_top = 0.2
-margin_right = 10.2159
+margin_right = -0.0241699
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -33,9 +33,9 @@ anchor_top = 0.027
 anchor_right = 0.979
 anchor_bottom = 0.978
 margin_left = 0.502182
-margin_top = -0.146
+margin_top = -1.03687
 margin_right = -3.31781
-margin_bottom = 0.155884
+margin_bottom = -0.734985
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -186,6 +186,20 @@ margin_top = 0.111877
 margin_right = -0.255981
 margin_bottom = 0.261871
 text = "Add Card"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_SaveDeck" type="Button" parent="Panel"]
+anchor_left = 0.023
+anchor_top = 0.857
+anchor_right = 0.148
+anchor_bottom = 0.932
+margin_left = 0.493994
+margin_top = -0.158752
+margin_right = -0.255981
+margin_bottom = -0.00872803
+text = "Save Deck"
 __meta__ = {
 "_edit_use_anchors_": false
 }
