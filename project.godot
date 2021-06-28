@@ -10,22 +10,43 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
-
 }
 
 [application]
 
 config/name="HamzaCardGame2_0"
-run/main_scene="res://scenes/mainmenu.tscn"
+run/main_scene="res://GameRoot.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 Global_DataParser="*res://Scripts/Global_DataParser.gd"
+DeckDataLoader="*res://Scripts/DeckDataLoader.gd"
 Global_CardDatabase="*res://Scripts/Global_CardDatabase.gd"
 Global_Player="*res://Scripts/Global_Player.gd"
 globals="res://globals.gd"
 CardBase="res://Cards/CardBase.tscn"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/size/test_width=1024
+window/size/test_height=600
+window/stretch/mode="2d"
+
+[input]
+
+leftclick={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+rightclick={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
 
 [rendering]
 

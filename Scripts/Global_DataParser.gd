@@ -5,13 +5,13 @@ const FILE_NAME = "user://game-data.json"
 onready var file = File.new()
 
 var player = {
-	"name": "Damjan"
+	"decks": {}
 }
 
 func save():
 	var file = File.new()
 	file.open(FILE_NAME, File.WRITE)
-	file.store_string(to_json(player))
+	file.store_var(to_json(player))
 	file.close()
 
 func load():

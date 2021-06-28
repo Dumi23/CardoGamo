@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kompleks - Bolji Zivot [soundtrack edit].mp3-0287d3cd69c071615a4c02975c46e789.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Kompleks - Bolji Zivot [soundtrack edit].mp3"
+dest_files=[ "res://.import/Kompleks - Bolji Zivot [soundtrack edit].mp3-0287d3cd69c071615a4c02975c46e789.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

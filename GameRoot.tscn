@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/mainmenu.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/DeckBuilder.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="mainmenu" parent="." instance=ExtResource( 1 )]
+margin_top = 0.749146
+margin_bottom = 0.749146
+
+[node name="Control" parent="mainmenu" instance=ExtResource( 2 )]
+visible = false

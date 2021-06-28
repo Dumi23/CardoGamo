@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/DeckBuilder.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://scenes/RichTextLabel.gd" type="Script" id=3]
+[ext_resource path="res://fonts/seagramt.tres" type="DynamicFont" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -28,14 +30,14 @@ __meta__ = {
 }
 
 [node name="ItemList" type="ItemList" parent="Panel"]
-anchor_left = 0.169
-anchor_top = 0.027
+anchor_left = 0.172
+anchor_top = 0.022
 anchor_right = 0.979
-anchor_bottom = 0.978
-margin_left = 0.502182
-margin_top = -1.03687
-margin_right = -3.31781
-margin_bottom = -0.734985
+anchor_bottom = 0.973
+margin_left = 0.614578
+margin_top = -1.16583
+margin_right = -0.139404
+margin_bottom = -0.863953
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -55,137 +57,41 @@ __meta__ = {
 }
 
 [node name="WindowDialog_CardMenu" type="WindowDialog" parent="Panel"]
-anchor_left = 0.389
-anchor_top = 0.285
-anchor_right = 0.663
-anchor_bottom = 0.687
-margin_left = 0.119751
-margin_top = 0.261993
-margin_right = 0.0917969
-margin_bottom = -0.134003
+anchor_left = 0.447
+anchor_top = 0.37
+anchor_right = 0.674
+anchor_bottom = 0.73
+margin_left = 0.364258
+margin_top = 0.177979
+margin_right = 2.3703
+margin_bottom = 0.89798
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CardMenu_TextureRect_Icon" type="TextureRect" parent="Panel/WindowDialog_CardMenu"]
-anchor_left = 0.393
-anchor_top = 0.042
-anchor_right = 0.564
-anchor_bottom = 0.242
-margin_left = -0.0399933
-margin_top = -0.0800009
-margin_right = 0.0800171
-margin_bottom = -0.079998
+anchor_left = 0.376
+anchor_top = 0.046
+anchor_right = 0.62
+anchor_bottom = 0.296
+margin_left = 3.016
+margin_top = 0.0639992
+margin_right = -0.0800018
+margin_bottom = 0.0639992
 texture = ExtResource( 2 )
 expand = true
-stretch_mode = 6
+stretch_mode = 4
 
 [node name="CardMenu_RichTextLabel_CardInfo" type="RichTextLabel" parent="Panel/WindowDialog_CardMenu"]
 anchor_left = 0.036
-anchor_top = 0.292
+anchor_top = 0.3
 anchor_right = 0.964
 anchor_bottom = 0.812
-margin_left = -0.0800009
-margin_top = -0.0800095
-margin_right = 0.0799866
-margin_bottom = 0.119995
+margin_left = 0.979446
+margin_top = -0.940491
+margin_right = 1.1394
+margin_bottom = 1.17952
 bbcode_enabled = true
-
-[node name="CardMenu_Button_Move" type="Button" parent="Panel/WindowDialog_CardMenu"]
-anchor_left = 0.071
-anchor_top = 0.828
-anchor_right = 0.433
-anchor_bottom = 0.953
-margin_left = 1.45484
-margin_top = -0.0435486
-margin_right = 0.094841
-margin_bottom = -0.0435486
-text = "Move"
-
-[node name="CardMenu_Button_RemoveCard" type="Button" parent="Panel/WindowDialog_CardMenu"]
-anchor_left = 0.564
-anchor_top = 0.828
-anchor_right = 0.921
-anchor_bottom = 0.953
-margin_left = 0.0800018
-margin_top = -0.0435486
-margin_right = 0.119995
-margin_bottom = -0.0435486
-text = "Drop"
-
-[node name="WindowDialog_AddCardWindow" type="WindowDialog" parent="Panel"]
-anchor_left = 0.326
-anchor_top = 0.346
-anchor_right = 0.688
-anchor_bottom = 0.58
-margin_left = 0.0621948
-margin_top = -0.216003
-margin_right = 0.0982056
-margin_bottom = -0.14801
-window_title = "Add Card"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="AddCardWindow_Label_CardID" type="Label" parent="Panel/WindowDialog_AddCardWindow"]
-anchor_left = 0.219
-anchor_top = 0.286
-anchor_right = 0.484
-anchor_bottom = 0.521
-margin_left = -0.0299988
-margin_top = -0.0400047
-margin_right = -0.0800018
-margin_bottom = 0.0599899
-text = "CardID"
-align = 2
-valign = 1
-
-[node name="AddCardWindow_SpinBox_CardID" type="SpinBox" parent="Panel/WindowDialog_AddCardWindow"]
-anchor_left = 0.492
-anchor_top = 0.307
-anchor_right = 0.692
-anchor_bottom = 0.478
-margin_left = -0.0365753
-margin_top = 0.00984573
-margin_right = -0.0365601
-margin_bottom = 0.0698471
-rect_min_size = Vector2( 1, 0 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="AddCardWindow_Button_AddCard" type="Button" parent="Panel/WindowDialog_AddCardWindow"]
-anchor_left = 0.216
-anchor_top = 0.643
-anchor_right = 0.486
-anchor_bottom = 0.857
-margin_left = 0.0800018
-margin_top = -0.0200043
-margin_right = 0.180008
-margin_bottom = 0.019989
-text = "Add"
-
-[node name="Close" type="Button" parent="Panel/WindowDialog_AddCardWindow"]
-anchor_left = 0.541
-anchor_top = 0.643
-anchor_right = 0.811
-anchor_bottom = 0.857
-margin_left = -0.169968
-margin_top = -0.0200043
-margin_right = -0.0699768
-margin_bottom = 0.019989
-text = "Close"
-
-[node name="Button_AddCard" type="Button" parent="Panel"]
-anchor_left = 0.023
-anchor_top = 0.715
-anchor_right = 0.148
-anchor_bottom = 0.79
-margin_left = 0.493994
-margin_top = 0.111877
-margin_right = -0.255981
-margin_bottom = 0.261871
-text = "Add Card"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -195,15 +101,183 @@ anchor_left = 0.023
 anchor_top = 0.857
 anchor_right = 0.148
 anchor_bottom = 0.932
-margin_left = 0.493994
+margin_left = 1.55347
 margin_top = -0.158752
-margin_right = -0.255981
+margin_right = 0.803497
 margin_bottom = -0.00872803
 text = "Save Deck"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Panel/Button_SaveDeck"]
+
+[node name="DeckName" type="WindowDialog" parent="Panel/Button_SaveDeck/CanvasLayer"]
+anchor_left = 3.0
+anchor_top = -6.209
+anchor_right = 5.604
+anchor_bottom = -3.911
+margin_left = -2665.0
+margin_top = 3958.4
+margin_right = -4996.5
+margin_bottom = 2679.6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="Panel/Button_SaveDeck/CanvasLayer/DeckName"]
+anchor_left = 0.118
+anchor_top = 0.34
+anchor_right = 0.921
+anchor_bottom = 0.598
+margin_left = 0.0599976
+margin_top = -0.0200005
+margin_right = 0.0699768
+margin_bottom = -0.594006
+
+[node name="Discard" type="Button" parent="Panel/Button_SaveDeck/CanvasLayer/DeckName"]
+anchor_left = 0.108
+anchor_top = 0.682
+anchor_right = 0.438
+anchor_bottom = 0.951
+margin_left = -0.104721
+margin_top = -0.246002
+margin_right = -0.00473022
+margin_bottom = 0.0469971
+rect_pivot_offset = Vector2( 259.258, 52.3502 )
+text = "Discard"
+
+[node name="Save" type="Button" parent="Panel/Button_SaveDeck/CanvasLayer/DeckName"]
+anchor_left = 0.582
+anchor_top = 0.68
+anchor_right = 0.912
+anchor_bottom = 0.951
+margin_left = -0.159134
+margin_top = -0.0400009
+margin_right = -0.0591431
+margin_bottom = 0.0469971
+text = "Save"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Button_SaveDeck/CanvasLayer/DeckName"]
+anchor_left = 0.29
+anchor_top = 0.097
+anchor_right = 0.881
+anchor_bottom = 0.282
+margin_left = -0.0350876
+margin_top = 0.00899982
+margin_right = -0.065094
+margin_bottom = -0.0460014
+text = "Name your deck:"
+
+[node name="ItemList2" type="ItemList" parent="Panel"]
+anchor_left = 0.006
+anchor_top = 0.166
+anchor_right = 0.162
+anchor_bottom = 0.823
+margin_left = -1.25447
+margin_top = -1.39047
+margin_right = -0.686447
+margin_bottom = -1.27649
+max_columns = 11
+icon_mode = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Popup" type="Popup" parent="Panel"]
+anchor_left = 0.115
+anchor_top = 0.245
+anchor_right = 0.964
+anchor_bottom = 0.706
+margin_left = -2.52999
+margin_top = -1.51001
+margin_right = 1.09393
+margin_bottom = -0.110016
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Popup"]
+anchor_left = 0.107
+anchor_top = 0.419
+anchor_right = 0.953
+anchor_bottom = 1.169
+margin_left = 1.81659
+margin_top = -0.0956879
+margin_right = -0.304871
+margin_bottom = 0.0957947
+custom_fonts/normal_font = ExtResource( 4 )
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+text = "MAXIMUM NUMBER OF CARDS IN DECK IS 11"
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Popup2" type="Popup" parent="Panel"]
+anchor_left = 0.115
+anchor_top = 0.245
+anchor_right = 0.964
+anchor_bottom = 0.706
+margin_left = -2.52999
+margin_top = -1.51001
+margin_right = 1.09393
+margin_bottom = -0.110016
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Popup2"]
+anchor_left = 0.107
+anchor_top = 0.419
+anchor_right = 0.953
+anchor_bottom = 1.169
+margin_left = 1.81659
+margin_top = -0.0956879
+margin_right = -0.304871
+margin_bottom = 0.0957947
+custom_fonts/normal_font = ExtResource( 4 )
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Popup3" type="Popup" parent="Panel"]
+anchor_left = 0.115
+anchor_top = 0.245
+anchor_right = 0.964
+anchor_bottom = 0.706
+margin_left = -2.52999
+margin_top = -1.51001
+margin_right = 1.09393
+margin_bottom = -0.110016
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Popup3"]
+anchor_left = 0.107
+anchor_top = 0.419
+anchor_right = 0.953
+anchor_bottom = 1.169
+margin_left = 1.81659
+margin_top = -0.0956879
+margin_right = -0.304871
+margin_bottom = 0.0957947
+custom_fonts/normal_font = ExtResource( 4 )
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="item_activated" from="Panel/ItemList" to="." method="_on_ItemList_item_activated"]
 [connection signal="item_rmb_selected" from="Panel/ItemList" to="." method="_on_ItemList_item_rmb_selected"]
 [connection signal="pressed" from="Panel/Button_Load" to="." method="_on_Button_Load_pressed"]
-[connection signal="pressed" from="Panel/WindowDialog_AddCardWindow/AddCardWindow_Button_AddCard" to="." method="_on_AddCardWindow_Button_AddCard_pressed"]
-[connection signal="pressed" from="Panel/Button_AddCard" to="." method="_on_Button_AddCard_pressed"]
+[connection signal="button_down" from="Panel/Button_SaveDeck" to="." method="_on_Button_SaveDeck_button_down"]
+[connection signal="button_down" from="Panel/Button_SaveDeck/CanvasLayer/DeckName/Save" to="." method="_on_Save_button_down"]
+[connection signal="item_selected" from="Panel/ItemList2" to="." method="_on_ItemList2_item_selected"]

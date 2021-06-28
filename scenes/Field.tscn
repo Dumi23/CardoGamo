@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/bcpics/cardback.png" type="Texture" id=1]
+[ext_resource path="res://field.png" type="Texture" id=2]
+[ext_resource path="res://scenes/Field.gd" type="Script" id=3]
+[ext_resource path="res://scenes/Button.gd" type="Script" id=4]
+
+[node name="PlayingField" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Cards" type="Node" parent="."]
+
+[node name="field" type="Sprite" parent="."]
+position = Vector2( 641.072, 360.39 )
+rotation = -5.07036e-06
+scale = Vector2( 0.624635, 0.561061 )
+texture = ExtResource( 2 )
+
+[node name="Deck" type="Node2D" parent="."]
+position = Vector2( 113.832, 509.163 )
+
+[node name="Button" type="Button" parent="Deck"]
+anchor_left = 0.016
+anchor_top = 0.581
+anchor_right = 0.016
+anchor_bottom = 0.581
+margin_left = -73.9471
+margin_top = -70.6641
+margin_right = 66.0529
+margin_bottom = 102.336
+icon = ExtResource( 1 )
+flat = true
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DropZone1" type="Position2D" parent="."]
+position = Vector2( 442.256, 223.679 )
+
+[node name="DropZone2" type="Position2D" parent="."]
+position = Vector2( 254.761, 225.798 )
+
+[connection signal="pressed" from="Deck/Button" to="." method="_on_Button_pressed"]

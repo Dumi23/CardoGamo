@@ -1,19 +1,11 @@
 {
-    "0":{
-        "name": "",
-        "icon": "",
-        "usable": false,
-        "type": "",
-        "form": "",
-        "description": "",
-        "stackable": false
-    },
-
+    
     "1": {
         "name": "Paper_plane",
         "icon": "res://CardImages/Card_40.png",
+        "transformIcon": "res://CardTransformImages/PpTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Ouch",
@@ -24,8 +16,9 @@
     "2": {
         "name": "Exam_paper",
         "icon": "res://CardImages/Card_44.png",
+        "transformIcon": "res://CardTransformImages/EpTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Woah",
@@ -36,8 +29,9 @@
     "3": {
         "name": "Slap",
         "icon": "res://CardImages/Card_41.png",
+        "transformIcon": "res://CardTransformImages/SlapTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Ouch",
@@ -48,8 +42,9 @@
     "4": {
         "name": "Dave_the_school_boy",
         "icon": "res://CardImages/Card_48.png",
+        "transformIcon": "res://CardTransformImages/DtsbTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 5,
         "type": "",
         "form": "",
@@ -59,21 +54,23 @@
     
     "5": {
         "name": "Chop",
+        "transformIcon": "res://CardTransformImages/ChopTransform.png",
         "icon": "res://CardImages/Card_33.png", 
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Ouch",
         "description": "Deal 1 damage",
-        "stackable": false
+        "stackable": true   
     },
 
     "6": {
         "name": "Jim",
         "icon": "res://CardImages/Card_45.png",
+        "transformIcon": "res://CardTransformImages/JimTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 7,
         "type": "",
         "form": "",
@@ -84,8 +81,9 @@
     "7": {
         "name": "Jimza",
         "icon": "res://CardImages/Card_29.png",
+        "transformIcon": "res://CardTransformImages/JimzaTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 7,
         "type": "",
         "form": "",
@@ -96,431 +94,534 @@
     "8": {
         "name": "Punch",
         "icon": "res://CardImages/Card_37.png",
+        "transformIcon": "res://CardTransformImages/PunchTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Ouch",
-        "description": "Deal 1 damage"
+        "description": "Deal 1 damage",
+        "stackable": true
     },
     
     "9": {
         "name": "Cut",
         "icon": "res://CardImages/Card_39.png",
+        "transformIcon": "res://CardTransformImages/CutTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Woah",
-        "description": "Stop all enemy healing this round"
+        "description": "Stop all enemy healing this round",
+        "stackable": true
     },
     
     "10": {
         "name": "Butter_knife",
         "icon": "res://CardImages/Card_43.png",
+        "transformIcon": "res://CardTransformImages/BkTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Ouch",
-        "description": "Deal 1 damage and switch card I and V on both sides"
+        "description": "Deal 1 damage and switch card I and V on both sides",
+        "stackable": true
     },
 
     "11": {
         "name": "Edgemaster",
         "icon": "res://CardImages/Card_47.png",
+        "transformIcon": "res://CardTransformImages/EdgemasterTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 5,
         "type": "",
         "form": "",
-        "description": "You can redraw up to 2 scissor cards at the start of each round"
-
+        "description": "You can redraw up to 2 scissor cards at the start of each round",
+        "stackable": false
     },
 
     "12": {
         "name": "Math",
         "icon": "res://CardImages/Card_02.png",
+        "transformIcon": "res://CardTransformImages/MathTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Switch card I and IV or II and V on every side"
+        "description": "Switch card I and IV or II and V on every side",
+        "stackable": true
     },
     
     "13": {
         "name": "Spitball",
         "icon": "res://CardImages/Card_36.png",
+        "transformIcon": "res://CardTransformImages/SpitballTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Ouch",
-        "description": "Deal 1 damage this card ignores block"
+        "description": "Deal 1 damage this card ignores block",
+        "stackable": true
     },
 
     "14": {
         "name": "Black_pen",
         "icon": "res://CardImages/Card_11.png",
+        "transformIcon": "res://CardTransformImages/BpTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Woah",
-        "description": "The damage you take this round against paper is reduced by 1"
+        "description": "The damage you take this round against paper is reduced by 1",
+        "stackable": true
     },
     
     "15": {
         "name": "Stun",
         "icon": "res://CardImages/Card_10.png",
+        "transformIcon": "res://CardTransformImages/StunTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Prevent the enemy woah card from activating and set it"
+        "description": "Prevent the enemy woah card from activating and set it",
+        "stackable": true
     },
 
     "16": {
         "name": "Cheat_sheet",
         "icon": "res://CardImages/Card_08.png",
+        "transformIcon": "res://CardTransformImages/CsTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Ouch",
-        "description": "Deal 1 damage if this card is switched set it"
+        "description": "Deal 1 damage if this card is switched set it",
+        "stackable": true
     },
 
     "17": {
         "name": "Scalpel",
         "icon": "res://CardImages/Card_35.png",
+        "transformIcon": "res://CardTransformImages/ScalpelTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Ouch",
-        "description": "Deal 2 damage"
+        "description": "Deal 2 damage",
+        "stackable": true
     },
 
     "18": {
         "name": "Locker",
         "icon": "res://CardImages/Card_34.png",
+        "transformIcon": "res://CardTransformImages/LockerTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Blok",
-        "description": "Block 1 damage deal damage equal to the not used block value"
+        "description": "Block 1 damage deal damage equal to the not used block value",
+        "stackable": true
     },
 
     "19": {
         "name": "Flex",
         "icon": "res://CardImages/Card_28.png",
+        "transformIcon": "res://CardTransformImages/FlexTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Blok",
-        "description": "If your HP is higher stop all enemy rock cards from activating this round"
+        "description": "If your HP is higher stop all enemy rock cards from activating this round",
+        "stackable": true
     },
 
     "20": {
         "name": "Clean_edge",
         "icon": "res://CardImages/Card_12.png",
+        "transformIcon": "res://CardTransformImages/CeTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Ouch",
-        "description": "Deal 1 damage for every scissor card that did no damage this round"
+        "description": "Deal 1 damage for every scissor card that did no damage this round",
+        "stackable": true
     },
 
     "21": {
         "name": "Outspeed",
         "icon": "res://CardImages/Card_23.png",
+        "transformIcon": "res://CardTransformImages/OutspeedTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Reveal your next turn card and activate it instead of this one but pass your next turn: povuci jos jednu lajnu"
+        "description": "Reveal your next turn card and activate it instead of this one but pass your next turn: povuci jos jednu lajnu",
+        "stackable": true
     },
 
     "22": {
         "name": "Dj_RichieSwitchie",
         "icon": "res://CardImages/Card_31.png",
+        "transformIcon": "res://CardTransformImages/DrsTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 6,
         "type": "",
         "form": "",
-        "description": "Once per round you switch two of your set cards. Can only be used on turn start"
+        "description": "Once per round you switch two of your set cards. Can only be used on turn start",
+        "stackable": false
     },
 
     "23": {
         "name": "Push",
         "icon": "res://CardImages/Card_42.png",
+        "transformIcon": "res://CardTransformImages/PushTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Woah",
-        "description": "This round after every card that blocked enemy damage your next ouch card deals +1 damage"
+        "description": "This round after every card that blocked enemy damage your next ouch card deals +1 damage",
+        "stackable": true
     },
 
     "24": {
         "name": "Big_joe",
         "icon": "res://CardImages/Card_46.png",
+        "transformIcon": "res://CardTransformImages/BjTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 5,
         "type": "",
         "form": "",
-        "description": "All of your block cards count as rock and they block 1 more damage"
+        "description": "All of your block cards count as rock and they block 1 more damage",
+        "stackable": false
     },
 
     "25": {
         "name": "Blank",
         "icon": "res://CardImages/Card_01.png",
+        "transformIcon": "res://CardTransformImages/Untitled_2.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "",
         "form": "Woah",
-        "description": ""
+        "description": "",
+        "stackable": true
     },
 
     "26": {
         "name": "Happy_bear_patch",
+        "transformIcon": "res://CardTransformImages/HbpTransform.png",
         "icon": "res://CardImages/Card_05.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Heal 3 HP but stop all other healing this round"
+        "description": "Heal 3 HP but stop all other healing this round",
+        "stackable": true
     },
 
     "27": {
         "name": "Sudden_swing",
         "icon": "res://CardImages/Card_15.png",
+        "transformIcon": "res://CardTransformImages/SsTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Ouch",
-        "description": "If the card before this one has no text deal 3 damage as rock"
+        "description": "If the card before this one has no text deal 3 damage as rock",
+        "stackable": true
     },
 
     "28": {
         "name": "Nap",
+        "transformIcon": "res://CardTransformImages/NapTransform.png",
         "icon": "res://CardImages/Card_09.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Heal 1 hp this card couns as a card with no text"
+        "description": "Heal 1 hp this card couns as a card with no text",
+        "stackable": true
     },
     
     "29": {
         "name": "Stop",
+        "transformIcon": "res://CardTransformImages/StopTransform.png",
         "icon": "res://CardImages/Card_06.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Blok",
-        "description": "Block 1 damage"
+        "description": "Block 1 damage",
+        "stackable": true
     },
 
 
     "30": {
         "name": "Recovering_Addam",
         "icon": "res://CardImages/Card_13.png",
+        "transformIcon": "res://CardTransformImages/RecoveringAddamTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 5,
         "type": "",
         "form": "",
-        "description": "After every turn you didn't take damage heal 1 HP. This character does not heal at the round end" 
+        "description": "After every turn you didn't take damage heal 1 HP. This character does not heal at the round end",
+        "stackable": false
     },
 
     "31": {
         "name": "Daemon",
         "icon": "res://CardImages/Card_14.png",
+        "transformIcon": "res://CardTransformImages/DaemonTransform.png",
         "usable": false,
-        "hero": true,
+        "hero": "hero",
         "health": 10,
         "type": "",
         "form": "",
-        "description": "At the end of the first round deal 3 damage to his own HP instead of healing"
+        "description": "At the end of the first round deal 3 damage to his own HP instead of healing",
+        "stackable": false
     },
 
     "32": {
         "name": "Powerbubble_soda",
         "icon": "res://CardImages/Card_17.png",
+        "transformIcon": "res://CardTransformImages/PsTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Heal 1 HP and your next ouch card this round deals 1 more damage"
+        "description": "Heal 1 HP and your next ouch card this round deals 1 more damage",
+        "stackable": true
     },
 
     "33": {
         "name": "Comet_punch",
         "icon": "res://CardImages/Card_21.png",
+        "transformIcon": "res://CardTransformImages/CpTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Ouch",
-        "description": "Does damage equal to the combined damage you dealt this round as rock"
+        "description": "Does damage equal to the combined damage you dealt this round as rock",
+        "stackable": true
     },
 
     "34": {
         "name": "Switcherobot",
         "icon": "res://CardImages/Card_25.png",
+        "transformIcon": "res://CardTransformImages/SwitcherobotTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Switch cards I and V and II and IV on both sides and set them"
+        "description": "Switch cards I and V and II and IV on both sides and set them",
+        "stackable": true
     },
 
     "35": {
         "name": "Telekinesis",
         "icon": "res://CardImages/Card_19.png",
+        "transformIcon": "res://CardTransformImages/TelekinesisTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Blok",
-        "description": "Block 1 damage. Stop all card switching this round"
+        "description": "Block 1 damage. Stop all card switching this round",
+        "stackable": true
     },
 
     "36": {
         "name": "Nail_step",
         "icon": "res://CardImages/Card_24.png",
+        "transformIcon": "res://CardTransformImages/NsTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Scissors",
         "form": "Woah",
-        "description": "If this card would be set deal 1 damage instead. This card can not be negated"
+        "description": "If this card would be set deal 1 damage instead. This card can not be negated",
+        "stackable": true
     },
 
     "37": {
         "name": "Dental_checkup",
         "icon": "res://CardImages/Card_22.png",
+        "transformIcon": "res://CardTransformImages/DcuTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type" : "Utility",
         "form": "Woah",
-        "description": "If this card would be set deal 1 damage instead. This card can not be negated"
+        "description": "If this card would be set deal 1 damage instead. This card can not be negated",
+        "stackable": true
     },
 
     "38": {
         "name": "Windown",
         "icon": "res://CardImages/Card_03.png",
+        "transformIcon": "res://CardTransformImages/WindownTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Ouch",
-        "description": "Deal 1 damage your next card counts as a card with no text"
+        "description": "Deal 1 damage your next card counts as a card with no text",
+        "stackable": true
     },
 
     "39": {
         "name": "Doodle",
+        "transformIcon": "res://CardTransformImages/DoodleTransform.png",
         "icon": "res://CardImages/Card_07.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Woah",
-        "description": "Your woah cards with no text also block 1 damage this game"
+        "description": "Your woah cards with no text also block 1 damage this game",
+        "stackable": true
     },
 
     "40": {
         "name": "Rules",
         "icon": "res://CardImages/Card_26.png",
+        "transformIcon": "res://CardTransformImages/RulesTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Blok",
-        "description": "Block 0 damage"
+        "description": "Block 0 damage",
+        "stackable": true
     },
 
     "41": {
         "name": "A_letter",
         "icon": "res://CardImages/Card_20.png",
+        "transformIcon": "res://CardTransformImages/aLetterTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Paper",
         "form": "Blok",
-        "description": "Block 1 damage set this card on turn end"
+        "description": "Block 1 damage set this card on turn end",
+        "stackable": true
     },
     
     "42": {
         "name": "Flower",
         "icon": "res://CardImages/Card_27.png", 
+        "transformIcon": "res://CardTransformImages/FlowerTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Switch two enemy set cards. You choose one and the enemy chooses the other"
+        "description": "Switch two enemy set cards. You choose one and the enemy chooses the other",
+        "stackable": true
     },
 
     "43": {
         "name": "Ice_cream",
         "icon": "res://CardImages/Card_18.png",
+        "transformIcon": "res://CardTransformImages/IcTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Woah",
-        "description": "Set your max HP to 7"
+        "description": "Set your max HP to 7",
+        "stackable": true
     },
 
     "44": {
         "name": "Shield",
         "icon": "res://CardImages/Card_38.png",
+        "transformIcon": "res://CardTransformImages/ShieldTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Blok",
-        "description": "Block 2 damage"
+        "description": "Block 2 damage",
+        "stackable": true
     },
 
     "45": {
         "name": "Small_chair_throw",
+        "transformIcon": "res://CardTransformImages/SctTransform.png",
         "icon": "res://CardImages/Card_04.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Rock",
         "form": "Ouch",
-        "description": "Deal 2 damage if used after a rock card"
+        "description": "Deal 2 damage if used after a rock card",
+        "stackable": true
     },
 
     "46": {
         "name": "Combo_punch",
         "icon": "res://CardImages/Card_32.png",
+        "transformIcon": "res://CardTransformImages/CpuTransform.png",
         "usable": true,
-        "hero": false,
+        "hero": "nonhero",
         "health": "",
         "type": "Utility",
         "form": "Ouch",
-        "description": "Deal 1 damage as any card type if the card before this one did damage"
+        "description": "Deal 1 damage as any card type if the card before this one did damage",
+        "stackable": true
+    },
+
+    "47": {
+        "name": "Jim_but_suprised",
+        "icon": "res://CardImages/Card_16.png",
+        "transformIcon": "res://CardTransformImages/SsTransform.png",
+        "usable": false,
+        "hero": "hero",
+        "health": 7,
+        "type": "",
+        "form": "",
+        "description": "",
+        "stackable": false
+    },
+
+    "48": {
+        "name": "JimzaX",
+        "icon": "res://CardImages/Card_30.png",
+        "transformIcon": "res://CardTransformImages/JimzaXTransform.png",
+        "usable": false,
+        "hero": "hero",
+        "health": 7,
+        "type": "",
+        "form": "",
+        "description": "It's just Hemza but he made a few mistakes",
+        "stackable" : false
     }
 }

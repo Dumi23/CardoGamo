@@ -15,7 +15,7 @@ func _ready():
 
 
 func _on_Play_toggled(button_pressed):
-	get_tree().change_scene("res://scenes/Lobby.tscn")
+	get_tree().change_scene("res://scenes/Field.tscn")
 	pass # Replace with function body.
 
 
@@ -26,4 +26,13 @@ func _on_Deck_Manager_pressed():
 
 func _on_Quit_pressed():
 	get_tree().quit()
+	pass # Replace with function body.
+
+
+#This is a function that plays a particular remix of a song from a tv show called "Better Life" hence press for a better life
+func playmusic():
+	$AudioStreamPlayer.play()
+
+func _on_Button_pressed():
+	playmusic()
 	pass # Replace with function body.

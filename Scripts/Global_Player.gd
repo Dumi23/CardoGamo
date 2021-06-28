@@ -6,7 +6,6 @@ var deck_maxSlots:int = 11
 onready var playerData:Dictionary = Global_DataParser.load_data(url_PlayerData)
 
 
-
 func _ready() -> void:
 	load_data()
 
@@ -63,5 +62,6 @@ func collection_updateItem(slot:int, new_id:int, new_amount:int) -> void:
 	if (new_amount < 0):
 		return
 	if (Global_CardDatabase.get_card(str(new_id)).empty()):
-		return
-	deck[str(slot)] = {"id": str(new_id), "amount": int(new_amount)}
+		return                                                         
+
+
